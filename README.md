@@ -1,1 +1,1 @@
-# JavascriptImageGallery
+# Blank Starter Code

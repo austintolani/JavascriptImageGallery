@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css "href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="body">
+  <div class="images">
+    <img src="image1.jpg" alt="image1" class="image" onclick="openPopup();openImage(1)">
+    <img src="image2.jpg" alt="image2" class="image" onclick="openPopup();openImage(2)">
+    <img src="image3.jpg" alt="image3" class="image" onclick="openPopup();openImage(3)">
+    <img src="image4.jpg" alt="image4" class="image" onclick="openPopup();openImage(4)">
+    <img src="image5.jpg" alt="image5" class="image" onclick="openPopup();openImage(5)">
+    <img src="image6.jpg" alt="image6" class="image" onclick="openPopup();openImage(6)">
+    <img src="image7.jpg" alt="image7" class="image" onclick="openPopup();openImage(7)">
+    <img src="image8.jpg" alt="image8" class="image" onclick="openPopup();openImage(8)">
+    <img src="image9.jpg" alt="image9" class="image" onclick="openPopup();openImage(9)">
+    <img src="image10.jpg" alt="image10" class="image" onclick="openPopup();openImage(10)">
+    <img src="image11.jpg" alt="image11" class="image" onclick="openPopup();openImage(11)">
+    <img src="image12.jpg" alt="image12" class="image" onclick="openPopup();openImage(12)">
+</div>
+
+<div class="popup" id="popup">
+
+  <div class="imagepopup">
+  <a href="#" id= "left"><i class="fas fa-arrow-left fa-5x" onclick="leftImage();"></i></a>
+  <a href="#" id = "right"><i class="fas fa-arrow-right fa-5x"  onclick="rightImage();"></i></a>
+    <a href="#" id="close"><i class="fas fa-times fa-5x"  onclick="closePopup();"></i></a>
+  <img src="image1.jpg" alt="image1" class="image" id = "image1">
+  <img src="image2.jpg" alt="image2" class="image" id = "image2">
+  <img src="image3.jpg" alt="image3" class="image" id = "image3">
+  <img src="image4.jpg" alt="image4" class="image" id = "image4">
+  <img src="image5.jpg" alt="image5" class="image" id = "image5">
+  <img src="image6.jpg" alt="image6" class="image" id = "image6">
+  <img src="image7.jpg" alt="image7" class="image" id = "image7">
+  <img src="image8.jpg" alt="image8" class="image" id = "image8">
+  <img src="image9.jpg" alt="image9" class="image" id = "image9">
+  <img src="image10.jpg" alt="image10" class="image" id = "image10">
+  <img src="image11.jpg" alt="image11" class="image" id = "image11">
+  <img src="image12.jpg" alt="image12" class="image" id = "image12">
+  </div>
+  </div>
+
+
+  <script src="javascript.js"></script>
+  </div>
+  </body>
+</html>

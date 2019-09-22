@@ -1,0 +1,81 @@
+body{
+  background-color: lightgray;
+  /* width: 100%; */
+}
+.body{
+  width: 100%;
+}
+img{
+  float: left;
+  margin: 10px;
+  height: 280px;
+  width: auto;
+  border: 4px solid white;
+}
+
+.images{
+  margin: auto;
+  width: 75%;
+
+  /* width: 80%; */
+}
+
+.images img:hover{
+  border: 4px solid red;
+}
+
+.popup{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.imagepopup{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+}
+
+.popup img{
+  height: 80%;
+  width: auto;
+  display: none;
+  position: relative;
+  float: none;
+  /* position: absolute;
+  left: 200px;
+  top: 0px; */
+  margin: 0 auto !important;
+
+}
+a {
+  z-index: 10;
+}
+
+
+#close {
+  /* left: 872px;
+  top: 20px; */
+  /* position: absolute; */
+    float: right;
+    margin-right: 20px;
+
+}
+
+#right{
+  /* left: 850px;
+  top: 300px; */
+  /* position: absolute; */
+
+}
+
+#left{
+  /* position: absolute;
+  left: 350px;
+  top: 300px; */
+}
